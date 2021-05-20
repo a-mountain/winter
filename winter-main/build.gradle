@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'mperevalov'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'cglib', name: 'cglib', version: '3.3.0'
+    implementation group: 'org.reflections', name: 'reflections', version: '0.9.10'
+    testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.6.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testImplementation 'org.mockito:mockito-core:3.10.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}

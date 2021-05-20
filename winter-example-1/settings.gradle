@@ -1,0 +1,6 @@
+rootProject.name = 'winter-example-1'
+
+include ':winter-main'
+
+project(':winter-main').projectDir = new File('C:\\Users\\frost\\IdeaProjects\\winter\\winter-main')
+

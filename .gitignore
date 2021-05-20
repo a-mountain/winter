@@ -1,0 +1,8 @@
+# Project exclude paths
+/winter-example-1/.gradle/
+/winter-example-1/build/
+/winter-example-1/build/classes/java/main/
+/winter-main/.gradle/
+/winter-main/build/
+/winter-main/build/classes/java/main/
+/winter-main/build/classes/java/test/
